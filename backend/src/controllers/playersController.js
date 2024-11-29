@@ -88,7 +88,7 @@ export const editarJugador = async (req, res) => {
 
 // Crear jugador
 
-export const crearJUgador = async (req, res) => {
+export const crearJugador = async (req, res) => {
     const { long_name, player_positions, club_name, nationality_name, overall, potential, value_eur, age, dribbling, defending, physic } = req.body;
   
     try {
